@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1582079768266-e65af1ad8d3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3900&q=80);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  padding-top: 4em;;
+}
+
+.logo {
+  padding-bottom: 3em;
+  color: #ffffff;
+}
+
+.segment-articles {
+  height: 35em;
+  overflow: auto;
+  text-align: left;
+}
+
+.segment-articles .header,
+.segment-articles .content,
+.segment-articles .description {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.segment-articles .content {
+  padding-top: 12px;
+}
+
+.segment-articles .description {
+  padding: 1.5em .5em 1.5em 0;
+}
+
+.read-more {
+  color: #4183c4;
+  border: none;
+  padding: .2em .5em;
+  outline: none;
+}
+
+.read-more:hover {
+  color: #1e70bf;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.ui.fluid.image {
+  height: 50vh;
+}
+
+h3 {
+  text-decoration: underline;
+}
